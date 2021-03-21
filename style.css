@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eceef1;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 12px;
+  color: #505050;
+}
+
+section {
+  display: block;
+}
+
+header {
+  height: 60px;
+  float: none;
+  padding: 10px 30px 10px 30px;
+  background: #eceef1;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.head-col {
+  float: right;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-seri;
+  font-weight: normal;
+  color: #505050;
+}
+
+.one {
+  float: left;
+  margin-left: 10px;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+#pass {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+#btn {
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  outline: none;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  color: white;
+  cursor: pointer;
+  font-size: 1.125em;
+  font-weight: normal;
+  height: 34px;
+}
+
+.img {
+  height: 20px;
+  width: 16px;
+  margin-top: 0;
+  margin-right: 6px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url(https://cdn2.iconfinder.com/data/icons/user-interface-essential-solid/32/Artboard_51-512.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+}
+#logo {
+  width: 340px;
+  padding-top: 10px;
+}
+
+.form {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  font-size: 14px;
+  width: 380px;
+  margin-top: 5px;
+}
+
+#main-form {
+  padding: 30px;
+  text-align: center;
+}
+
+#form-title {
+  font-size: 24px;
+  color: #393a3d;
+  font-weight: 400;
+  line-height: 1.1;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+#form-sub {
+  text-align: center;
+  padding-top: 6px;
+}
+
+#signup-form {
+  font-size: 14px;
+}
+
+input {
+  height: 30px;
+  width: 315px;
+  align-self: center;
+  border: 1px solid #c7c7c7;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+#phone {
+  margin-bottom: 0px;
+}
+
+#disclaimer {
+  font-size: 10px;
+  margin-bottom: 30px;
+  padding-top: 5px;
+  display: flex;
+}
+
+#submit {
+  width: 315px;
+  border: none;
+  font-size: 16px;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  height: 45px;
+  background: #0077c5;
+  border-color: #0077c5;
+  color: white;
+}
+
+#password {
+  font-weight: normal;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+#icon-lock {
+  width: 25px;
+  height: 20px;
+}
+
+label {
+  display: flex;
+}
+
+.term-box {
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.link {
+  color: #0077c5;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#terms {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+#privacy {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+.capthca {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eceef1;
+  margin: auto;
+  padding: 0;
+  width: 380px;
+  height: 45px;
+  color: #727272;
+  text-align: center;
+}
+
+#google {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+#use {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  width: 700px;
+  margin: auto;
+  margin-bottom: auto;
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+.foot-container {
+  text-align: center;
+}
+
+.foot-link {
+  text-decoration: none;
+  color: black;
+  margin-right: 5px;
+}
+
+.footer-text p {
+  color: #505050;
+  text-align: center;
+  line-height: 1px;
+}
+
+.bottom-footer {
+  background-color: #ffffff;
+  height: 64px;
+  width: 100vw;
+  min-width: 380px;
+  padding: 20px;
+  margin-top: 72px;
+}
+
+#foot-Settings {
+  cursor: pointer;
+  float: left;
+  color: #0077c5;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#foot-Settings:hover {
+  text-decoration: underline;
+}
+
+#google:hover {
+  text-decoration: underline;
+}
+
+#use:hover {
+  text-decoration: underline;
+}
+
+#terms:hover {
+  text-decoration: underline;
+}
+
+#privacy:hover {
+  text-decoration: underline;
+}
+
+#pass:hover {
+  text-decoration: underline;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
